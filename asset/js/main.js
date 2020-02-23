@@ -6,13 +6,6 @@ $(window).scroll(() => {
 })
 
 
-// $(document).ready(function(){
-//     $(window).scroll(function(){
-//         var valeur_scroll = $(window).scrollTop();
-//         console.log(valeur_scroll);
-//         $("#slide2").css('transform',"translateY("+valeur_scroll/1.2 + "px)")
-//     });
-// });
 
   
  
