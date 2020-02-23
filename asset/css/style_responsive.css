@@ -1,0 +1,559 @@
+/* Smartphones (portrait and landscape) ----------- */
+
+@media   screen and (max-width: 680px) {
+
+    header div img.menu_mobile
+    {
+        display:block;
+        margin-left:90%;
+        margin-top:10px;
+        z-index: 10;
+        position: absolute;
+    }
+
+
+
+    header div nav div.mobile ul li
+{
+    z-index: 10;
+    color:white;
+    display: block;
+    font-size: 30px;
+    margin-right:70px;
+    margin-left: 60px;
+    line-height: 80px; 
+}
+
+header div img.close_menu
+{
+    display: none;
+    position: absolute;
+    z-index: 10;
+    margin-left:20px;
+    margin-top:10px;
+}
+
+header div nav div.mobile
+{
+    z-index: 10;
+    position: absolute;
+    text-align: center;
+    margin:0 auto;
+    width: 100%;
+    display:none;
+    
+}
+
+header div nav div.mobile ul
+{
+    z-index: 10;
+    list-style: none;
+    background-image: url('../image/header-bg.png');
+    height:auto;
+    opacity:8;
+    display:block;
+}
+
+nav div.not-mobile
+        {
+            display:none;
+        }
+
+ 
+
+
+    header div img.logo
+    {
+    width: 50%;
+    z-index: 2;
+    position: absolute;
+    left: 25%;
+    margin-top: 10%;
+    }
+
+    header div img.bg
+    {
+    z-index: 1;
+    width: 100%;
+    
+    
+    
+    }
+
+    header div nav.not-mobile
+    {
+        display:none;
+    }
+
+    section.section_1 img
+    {
+        display:none ;
+    }
+
+    
+
+    section.section_1 strong
+    {
+        font-size:4vw !important;
+    }
+
+    section.section_1 p
+    {
+        font-size:3.5vw !important;
+        line-height: 40px;
+    }
+
+    .section_2 
+        {
+            margin-top:120% ;
+            max-width: 100%;
+            height:50%;
+            position: absolute;
+            background-position: center center;
+        }
+
+        #slide2
+        {
+            margin-top:10px;
+            margin-right: 200px;
+        }
+
+        section.section_3
+        {
+            margin-top:200%;
+        }
+
+        section.section_3 img
+        {
+            position:absolute !important;
+            margin-top:0% ;
+            height:auto !important;
+            width: 70%;
+            
+        }
+
+        section.section_3 p:nth-child(2)
+            {
+                margin-right:16% !important;
+                font-size: 2.8vw ;
+                width:60%;
+                line-height: 40px;
+                margin-top:70% !important;
+                
+            }
+    
+            section.section_3 p:nth-child(3){
+                display:none;
+            }
+
+            section.section_4 
+            {
+                margin-top:380% ;
+                
+            }
+
+            #slide4
+            {
+                margin-top:400px;
+            }
+
+        
+
+        footer 
+        {
+            background-color:black;
+        }
+
+        footer div div.follow_star_wars p
+        {
+            float: left;
+            
+        }
+
+        footer div div.follow_star_wars p
+        {
+            display:inline;
+          
+        }
+
+        footer div div.deux
+        {
+            float: left;
+            margin-left: 50px;
+          
+        }
+
+        
+        footer div div.un
+        {
+            float: left;
+            margin-left: 50px;
+          
+        }
+
+        
+
+        footer div div.follow_star_wars div img
+        {
+            display: inline;
+            margin-right:30px;
+        }
+
+        footer div
+        {
+           
+            width: 80%;
+            height: auto;
+        }
+
+       
+    }
+    
+
+
+    @media   screen and (min-width: 681px) and (max-width: 991px) {
+
+        header div img.menu_mobile
+        {
+            display:block;
+            margin-left:90%;
+            margin-top:10px;
+            z-index: 10;
+            position: absolute;
+        }
+    
+    
+    
+        header div nav div.mobile ul li
+    {
+        z-index: 10;
+        color:white;
+        display: block;
+        font-size: 30px;
+        margin-right:70px;
+        margin-left: 60px;
+        line-height: 80px; 
+    }
+    
+    header div img.close_menu
+    {
+        display: none;
+        position: absolute;
+        z-index: 10;
+        margin-left:20px;
+        margin-top:10px;
+    }
+    
+    header div nav div.mobile
+    {
+        z-index: 10;
+        position: absolute;
+        text-align: center;
+        margin:0 auto;
+        width: 100%;
+        display:none;
+        
+    }
+    
+    header div nav div.mobile ul
+    {
+        z-index: 10;
+        list-style: none;
+        background-image: url('../image/header-bg.png');
+        height:auto;
+        opacity:8;
+        display:block;
+    }
+    
+        nav div.not-mobile
+        {
+            display:none;
+        }
+
+
+        section.section_1 img
+        {
+            display:none;
+        }
+    
+
+        header div nav ul li
+        {
+            font-size:1.8vw;
+        }
+
+        
+    
+        section.section_1 strong
+        {
+            font-size:2.5vw !important;
+            margin-left:25%;
+            
+        }
+    
+        section.section_1 p
+        {
+            font-size:3vw !important;
+            margin-left:14%;
+        }
+    
+        .section_2 
+            {
+                margin-top:100%;
+                max-width: 100%;
+                position: absolute;
+            }
+    
+            section.section_3
+            {
+                margin-top:200%;
+            }
+    
+            section.section_3 img
+            {
+                position:absolute !important;
+                margin-top:0% ;
+                height:auto !important;
+                width: 70%;
+                
+            }
+    
+            section.section_3 p:nth-child(2)
+            {
+                margin-right:16% !important;
+                font-size: 2.5vw ;
+                width:60%;
+                line-height: 40px;
+                margin-top:70% !important;
+                
+            }
+    
+            section.section_3 p:nth-child(3){
+                display:none;
+            }
+    
+            section.section_4
+            {
+                margin-top:350%; 
+            }
+
+            #slide4
+            {
+                margin-top: 195px;
+            }
+    
+            
+    
+            footer 
+            {
+                
+                
+                background-color:black !important;
+            }
+
+            footer div div.follow_star_wars div img
+        {
+            display: inline;
+            margin-right:30px;
+        }
+
+        }
+
+        @media   screen and (min-width: 992px) and (max-width: 1199px) {
+
+            header div nav.mobile
+        {
+          display:none;
+        }
+
+            section.section_1 img
+            {
+                margin-right:0%;
+            }
+        
+    
+            header div nav ul li
+            {
+                font-size:1.8vw;
+            }
+    
+            
+        
+            section.section_1 strong
+            {
+                font-size:2.5vw !important;
+                
+            }
+        
+            section.section_1 p
+            {
+                font-size:3vw !important;
+            }
+        
+            .section_2 
+                {
+                    margin-top:100%;
+                    max-width: 100%;
+                    position: absolute;
+                }
+        
+                section.section_3
+                {
+                    margin-top:180%;
+                }
+        
+                section.section_3 img
+                {
+                    position:absolute !important;
+                    margin-top:0% ;
+                    height:auto !important;
+                    width: 70%;
+                    
+                }
+        
+                section.section_3 p
+                {
+                    margin-right:22% !important;
+                    font-size: 2.5vw ;
+                    
+                }
+        
+                section.section_3 p:nth-child(2){
+                    margin-right:0% !important;
+                    width:100% !important;
+                    height:auto;
+                    margin-top:80% !important;
+                }
+        
+                section.section_4
+                {
+                    margin-top:350%; 
+                }
+        
+                #slide4
+                {
+                    margin-top:420px;
+                }
+        
+                footer 
+                {
+                    
+                    
+                    background-color:black !important;
+                }
+            }
+
+
+            @media   screen and (min-width: 1200px) and (max-width: 1300px) {
+
+                header div nav div.not-mobile ul li
+                    {
+                        font-size:2vw;
+                        margin:20px;
+                    }
+
+                    .section_2 
+                {
+                    margin-top:80%;
+                    max-width: 100%;
+                    position: absolute;
+                }
+
+                
+                    section.section_3
+                    {
+                        margin-top:130%;
+                    }
+
+                    section.section_3 img
+                    {
+                        margin-top:3%;
+                    }
+            
+                    
+                    section.section_3 p
+                    {
+                        margin-right:22% ;
+                        font-size: 2.2vw ;
+                        width: 55%;
+                        
+                    }
+            
+                    section.section_3 p:nth-child(2){
+                        margin-right:0% !important;
+                        width:50% ;
+                        height:auto;
+                        
+                    }
+
+                    section.section_4
+                    {
+                        margin-top:230%;
+                    }
+            
+                    #slide4
+                    {
+                        margin-top: 285px;
+                    }
+
+                    
+                }
+
+                @media   screen and (min-width: 1301px) and (max-width: 1700px) {
+
+                    header div nav div.not-mobile ul li
+                    {
+                        font-size:2vw ;
+                        margin:30px;
+                    }
+
+                    .section_2 
+                    {
+                        margin-top:70%;
+                        max-width: 100%;
+                        position: absolute;
+                    }
+
+                    
+                    section.section_3
+                    {
+                        margin-top:120%;
+                    }
+
+                    section.section_3 img
+                    {
+                        margin-top:3%;
+                    }
+            
+                    
+                    section.section_3 p
+                    {
+                        margin-right:22% ;
+                        font-size: 1.5vw ;
+                        width: 55%;
+                        
+                    }
+            
+                    section.section_3 p:nth-child(2){
+                        margin-right:0% !important;
+                        width:50% ;
+                        height:auto;
+                        
+                    }
+
+                    section.section_4
+                    {
+                        margin-top:180%;
+                    }
+
+                    #slide4
+                    {
+                        margin-top:250px;
+                    }
+            
+                    
+                }
+
+                
+     
+    

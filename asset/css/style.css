@@ -1,0 +1,228 @@
+body
+{
+    margin:0;
+    padding:0;
+}
+
+    header div img.menu_mobile
+    {
+        display:none;
+    }
+
+    
+
+    header div nav div.mobile
+    {
+        display:none;
+    }
+
+    header div img.close_menu
+    {
+        display:none;
+    }
+
+
+
+header div nav ul li
+{
+    color:white;
+    text-align: center;
+    display: inline;
+    font-size: 30px;
+    margin-left: 60px;
+    
+    
+    
+}
+
+header div nav
+{
+    z-index: 10;
+    position: fixed;
+    text-align: center;
+    margin:0 auto;
+    width: 100%;
+    
+}
+
+header div nav ul
+{
+    list-style: none;
+    background: rgb(163, 141, 28,0.8);
+    height:auto;
+    opacity:8;
+}
+
+
+
+header div img.logo
+{
+    width: 50%;
+    z-index: 2;
+    position: absolute;
+    left: 25%;
+    margin-top: 10%;
+    
+}
+
+header div img.bg
+{
+    z-index: 1;
+    width: 100%;
+    
+    
+    
+}
+
+section.section_1 
+{
+   position: absolute;
+   margin-top:10%;
+   width: 80%;
+   margin-left: 15%;
+}
+
+section.section_1  div.section strong
+{
+   font-size: 25px;
+}
+
+section.section_1 div.section p
+{
+   font-size: 20px;
+}
+
+section.section_1   img
+{
+   float:right;
+   margin-right:30%;
+   
+   
+}
+
+
+.section_2
+{
+    margin-top:50%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height:55vh;
+}
+
+#slide2
+{
+    background-image : url('../image/kiloren.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:400%;
+    width: 100%;
+    background-position:center center;
+    position: absolute;
+   
+    
+
+}
+
+
+section.section_3
+{
+    position: absolute;
+   margin-top:10%;
+   
+   width:99.5%;
+}
+
+section.section_3 img
+{
+    margin-left:20%;
+}
+
+section.section_3 p
+{
+   width:700px;
+   float:right;
+   margin-right:20%;
+   font-size:1vw;
+}
+
+section.section_3 p:nth-child(3){
+    width:60%;
+}
+
+section.section_4
+{
+
+    margin-top:100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height:55vh;
+}
+
+#slide4
+{
+    background-image : url('../image/stormtroopers.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+    width: 100%;
+    background-position:center center;
+    position: absolute;
+}
+
+
+
+
+
+footer
+{
+    position: absolute;
+   margin-top:0%;
+   width:100%;
+   background-color:black;
+
+   
+   
+}
+
+
+footer div h3{
+    text-align:center;
+    color:grey;
+}
+
+footer div ul
+{
+    list-style:none;
+    width:100%;
+    color:grey;
+}
+
+
+
+footer div 
+{
+    
+    margin-left:10%;
+    text-align:center;
+    color:white;
+}
+
+.follow_star_wars p
+{
+    float:right;
+}
+
+.follow_star_wars img
+{
+    float:right;
+}
+
+
+
+
+
+
+
+
