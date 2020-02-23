@@ -6,10 +6,6 @@ $(window).scroll(() => {
 })
 
 
-
-  
- 
-
 function navMobile()
 {
     var oppenButton = document.querySelector('.menu_mobile');
